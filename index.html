@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Rick & Morty Fan Club</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html"
+        ><h2>Rick & Morty Fan Club</h2></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="club.html">Join The Club</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--/Navbar-->
+
+    <!--Landing Page-->
+      <div class="container landing text-center" id="landing-page">
+        <h1>Welcome to the Rick & Morty Fan Page</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eleifend
+          urna at libero cursus accumsan. Suspendisse leo nunc, eleifend in
+          massa id, ultricies hendrerit metus. Praesent eget gravida ex. Fusce
+          ut diam eu augue molestie fringilla sit amet eu dui. Duis elementum
+          mauris in ornare semper. Vivamus vestibulum egestas mi ac tempus.
+          Maecenas consequat libero eu orci pharetra porttitor. Aliquam
+          tincidunt in augue non finibus. In eu sem dapibus, eleifend metus eu,
+          dapibus turpis. Sed vestibulum, ipsum a hendrerit tempus, purus mi
+          sollicitudin libero, non dignissim dui turpis id massa. Ut tempus ut
+          neque ac sagittis. Maecenas imperdiet maximus mauris ut accumsan.
+          Proin eu ante purus.
+        </p>
+        <button type="button" class="btn start-quiz-btn" id="start-button">
+          Start Quiz!
+        </button>
+      </div>
+      <!--Question Conatiner-->
+      <div class="quiz-questions mb-4" id="quiz-questions">
+        <div class="container">
+          <div class="question" id="question">
+            <div class="card">
+              <h3 class="card-title text-center mt-3" id="question-info">
+                Question
+              </h3>
+              <div class="card-body">
+                <div class="row" id="answer-btns">
+                  <div class="col-sm-12 col-lg-6 text-center mt-3">
+                    <button class="btn answer-btn" id="answer-btn-1"></button>
+                  </div>
+                  <div class="col-sm-12 col-lg-6 text-center mt-3">
+                    <button class="btn answer-btn" id="answer-btn-2"></button>
+                  </div>
+                  <div class="col-sm-12 col-lg-6 text-center mt-3">
+                    <button class="btn answer-btn" id="answer-btn-3"></button>
+                  </div>
+                  <div class="col-sm-12 col-lg-6 text-center mt-3">
+                    <button class="btn answer-btn" id="answer-btn-4"></button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <button
+                      class="btn btn-primary btn-lg mt-3"
+                      id="next-button"
+                    >
+                      Next
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/QUESTION CONTAINER-->
+      <!--SCORE PAGE-->
+      <div class="container d-none" id="score-page">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="feedback-b font-weight-bold" id="score">Score</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="decoration" id="feedback"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 feedback-b">
+            <button class="btn btn-primary btn-lg" id="try-again-btn">
+              Try Again
+            </button>
+            <a href="index.html" class="text-decoration-none" id="quit-button"
+              >Quit</a
+            >
+          </div>
+        </div>
+      </div>
+    <!--/SCORE PAGE-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
