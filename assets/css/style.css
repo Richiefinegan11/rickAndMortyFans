@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Source+Sans+Pro&display=swap");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.social-media i {
+  font-size: 190%;
+  margin: 1%;
+  padding: 5%;
+  color: #000000;
+}
+
+.social-media i:hover {
+  font-size: 240%;
+}
+
+/* Home page */
+
+body {
+  background-image: url(../images/rickandmorty2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+}
+
+.landing {
+  color: #ffd300;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5rem 2rem;
+  height: 50vh;
+}
+
+.start-quiz-btn {
+  background-color: #ffd300;
+  color: black;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.start-quiz-btn:hover {
+  background-color: #1338be;
+  color: #fff;
+}
+
+.quiz-questions {
+  padding-top: 15rem;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card h3 {
+  color: #ffd300;
+}
+
+.answer-btn {
+  background-color: #ffd300;
+  color: #000;
+  font-size: large;
+  font-weight: 600;
+  width: 12rem;
+  margin: 5px 5px;
+}
+
+.green {
+  background-color: forestgreen;
+  color: #000;
+}
+
+.red {
+  background-color: darkred;
+  color: #000;
+}
+
+.feedback-b {
+  color: #fff;
+  text-align: center;
+}
+
+#score-page {
+  padding-top: 15rem;
+}
+
+video {
+  display: block;
+  margin: 1rem 1rem;
+}
