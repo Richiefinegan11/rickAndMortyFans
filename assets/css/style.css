@@ -37,16 +37,30 @@ body {
   height: 50vh;
 }
 
-.start-quiz-btn {
+.start-quiz-btn, .next-btn {
   background-color: #ffd300;
   color: black;
   font-size: larger;
   font-weight: 800;
 }
 
-.start-quiz-btn:hover {
+.start-quiz-btn:hover, .next-btn:hover {
   background-color: #1338be;
   color: #fff;
+}
+
+
+
+.try-again-btn {
+  background-color: #1338be;
+  color: #fff;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.try-again-btn:hover {
+  background-color: #ffd300;
+  color: #000000;
 }
 
 .quiz-questions {

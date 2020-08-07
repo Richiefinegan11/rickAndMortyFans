@@ -23,6 +23,7 @@ let questions = [
             { text: "Sarah", correct: false},
         ],
     },
+    /*
     {
         question: "What is Rick's favourit method of transportation?",
         answers: [
@@ -94,7 +95,7 @@ let questions = [
           { text: "Gary", correct: false},
           { text: "Barry", correct: false},
      ]
-    },
+    },*/
 ];
 
 let questionContainer = document.getElementById("quiz-questions");
@@ -113,12 +114,12 @@ startGame();
 
 
 function startGame() {
-  /***ON CLICK Start Quiz BUTTON HIDE LANDING PAGE AND SHOW QUESTION IN QUIZ***/
+  /* ON CLICK Start Quiz BUTTON HIDE LANDING PAGE AND SHOW QUESTION IN QUIZ */
   $("#start-button").click(function () {
     $("#landing-page").hide("slow");
     $(".question").show("slow");
   });
-  /***SHUFFLING QUESTIONS SO THE ORDER IS NOT ALWAYS SAME***/
+  /* SHUFFLING QUESTIONS SO THE ORDER IS NOT ALWAYS SAME */
   shuffledQuestions = questions.sort(() => Math.random() - 0.5);
   /*CURRENT QUESTION INDEX*/
   currentQuestion = 0;
@@ -126,7 +127,7 @@ function startGame() {
 }
 
 function showQuestion(question) {
-  /***POPULATING QUESTION CONTAINER WITH QUESTION, IMAGE AND ANSWERS***/  
+  /* POPULATING QUESTION CONTAINER WITH QUESTION, IMAGE AND ANSWERS */  
   questionElement.innerText = question.question;
   question.answers.forEach((answer, index) => {
     const button = document.getElementById("answer-btn-" + (index + 1));
@@ -139,13 +140,13 @@ function showQuestion(question) {
   });
 }
 function selectAnswer(e) {
-  /***CREATING AN EMPTY ARRAY FOR RESETING STATE OF THE BUTTONS***/  
+  /* CREATING AN EMPTY ARRAY FOR RESETING STATE OF THE BUTTONS */  
   answerButtonsArray = [];  
   const selectedButton = e.target;
   if (selectedButton.dataset.correct === "true"){
       score++;
   }
-   /***DISABLING ANSWER BUTTONS AFTER CLICK***/
+   /* DISABLING ANSWER BUTTONS AFTER CLICK */
    $(".answer-btn").prop("disabled", true);
   Array.from(answersButtonsClass).forEach(button => {
     setStatusClass(button, button.dataset.correct);
@@ -192,7 +193,7 @@ function quizEndFeedback(){
   }
 }
 
-/***ADDING CLASS TO BUTTON CLICKED***/
+/* ADDING CLASS TO BUTTON CLICKED */
 function setStatusClass(element, correct) {
     clearStatusClass(element);
     if (correct) {
@@ -201,7 +202,7 @@ function setStatusClass(element, correct) {
       element.classList.add("red");
     }
   }
-  /***CLEARING CLASSES OF BUTTONS CLICKED***/
+  /* CLEARING CLASSES OF BUTTONS CLICKED */
   function clearStatusClass(element) {
     element.classList.remove("green");
     element.classList.remove("red");
@@ -212,13 +213,13 @@ function setStatusClass(element, correct) {
     resetButtonState();
     nextQuestion();
   });
-  /***RESETING BUTTONS STATE***/
+  /* RESETING BUTTONS STATE */
   function resetButtonState(){
     answerButtonsArray.forEach( element => {
       clearStatusClass(element);
     });
   }
-  /***SHOWING NEXT QUESTION AND ENABLING ANSWER BUTTONS***/
+  /* SHOWING NEXT QUESTION AND ENABLING ANSWER BUTTONS */
   function nextQuestion() {
     nextButton.classList.add("d-none");
     showQuestion(shuffledQuestions[currentQuestion]);
