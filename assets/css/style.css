@@ -23,7 +23,7 @@ body {
   color: #ffd300;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 5rem 2rem;
-  height: 50vh;
+  height: 45vh;
 }
 
 .landing p {
@@ -31,12 +31,29 @@ body {
   font-size: x-large;
 }
 
+.quiz-questions {
+  padding-top: 15rem;
+}
+
+#score-page {
+  padding-top: 15rem;
+}
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .landing {
-    margin-top: 12em;
+  .landing, #score-page {
+    margin-top: 8em;
   }
   .quiz-questions {
     margin-top: 13rem;
+  }
+}
+
+@media only screen and (min-device-width: 450px) and (max-device-width: 600px) {
+  .quiz-questions {
+    padding-top: 5rem;
+  }
+  #score-page {
+    padding: 5rem 0rem;
   }
 }
 
@@ -73,17 +90,14 @@ body {
 .quit {
   color: #fff;
   font-size: x-large;
-}
-
-.quiz-questions {
-  padding-top: 15rem;
+  padding: 5px 10px;
 }
 
 .card {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.card h3 {
+.card h2 {
   color: #ffd300;
 }
 
@@ -109,10 +123,6 @@ body {
 .feedback-b {
   color: #fff;
   text-align: center;
-}
-
-#score-page {
-  padding-top: 15rem;
 }
 
 video {
