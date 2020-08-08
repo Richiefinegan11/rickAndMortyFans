@@ -8,17 +8,6 @@ body {
   background-color: #fff;
 }
 
-.social-media i {
-  font-size: 190%;
-  margin: 1%;
-  padding: 5%;
-  color: #000000;
-}
-
-.social-media i:hover {
-  font-size: 240%;
-}
-
 /* Home page */
 
 body {
@@ -37,19 +26,19 @@ body {
   height: 50vh;
 }
 
-.start-quiz-btn, .next-btn {
+.start-quiz-btn,
+.next-btn {
   background-color: #ffd300;
   color: black;
   font-size: larger;
   font-weight: 800;
 }
 
-.start-quiz-btn:hover, .next-btn:hover {
+.start-quiz-btn:hover,
+.next-btn:hover {
   background-color: #1338be;
   color: #fff;
 }
-
-
 
 .try-again-btn {
   background-color: #1338be;
@@ -61,6 +50,11 @@ body {
 .try-again-btn:hover {
   background-color: #ffd300;
   color: #000000;
+}
+
+.quit {
+  color: #fff;
+  font-size: x-large;
 }
 
 .quiz-questions {
