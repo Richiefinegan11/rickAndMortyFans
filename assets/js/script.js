@@ -6,7 +6,7 @@ $(document).ready(function () {
 /* QUIZ QUESTIONS */
 let questions = [
     {
-        question: "What is Rick's second name?",
+        question: "What is Rick's surname?",
         answers: [
             { text: "James", correct: false},
             { text: "Astley", correct: false},
@@ -23,7 +23,7 @@ let questions = [
             { text: "Sarah", correct: false},
         ],
     },
-    /*
+  
     {
         question: "What is Rick's favourit method of transportation?",
         answers: [
@@ -95,7 +95,7 @@ let questions = [
           { text: "Gary", correct: false},
           { text: "Barry", correct: false},
      ]
-    },*/
+    },
 ];
 
 let questionContainer = document.getElementById("quiz-questions");

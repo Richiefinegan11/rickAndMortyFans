@@ -31,6 +31,12 @@ body {
   font-size: x-large;
 }
 
+.opening {
+  color: #1338be;
+  font-weight: 800;
+  margin: 3rem 0rem;
+}
+
 .quiz-questions {
   padding-top: 15rem;
 }
@@ -40,7 +46,8 @@ body {
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .landing, #score-page {
+  .landing,
+  #score-page {
     margin-top: 8em;
   }
   .quiz-questions {
