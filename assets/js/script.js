@@ -176,19 +176,19 @@ function quizEndFeedback(){
     $("#feedback").html(`<div>
     <h4 class="feedback-b" >Well done!</h4>
     <video autoplay="autoplay" loop="loop" width="500" height="500" class="img-fluid mx-auto">
-    <source src="/assets/images/wellDone.mp4" type="video/mp4" />
+    <source src="assets/images/wellDone.mp4" type="video/mp4" />
     </video>`)
   }else if (score > 5) {
     $(`#feedback`).html(`<div>
     <h4 class="feedback-b" >Not !</h4>
     <video autoplay="autoplay" loop="loop" width="500" height="500" class="img-fluid mx-auto">
-    <source src="/assets/images/notBad.mp4" type="video/mp4" />
+    <source src="assets/images/notBad.mp4" type="video/mp4" />
     </video>`)
   }else {
     $(`#feedback`).html(`<div>
     <h4 class="feedback-b" >Very Bad!</h4>
     <video autoplay="autoplay" loop="loop" width="500" height="500" class="img-fluid mx-auto">
-    <source src="/assets/images/veryBad.mp4" type="video/mp4" />
+    <source src="assets/images/veryBad.mp4" type="video/mp4" />
     </video>`)
   }
 }
