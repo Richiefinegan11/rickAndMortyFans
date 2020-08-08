@@ -27,7 +27,7 @@ body {
 }
 
 .landing p {
-  padding-top: 2em;
+  padding-top: 1em;
   font-size: x-large;
 }
 
@@ -61,6 +61,18 @@ body {
   }
   #score-page {
     padding: 5rem 0rem;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 414px) {
+  .landing {
+    height: 100%;
+  }
+  .opening {
+    margin: 1rem 0rem;
+  }
+  .start-quiz-btn {
+    margin: 1rem 1rem;
   }
 }
 
