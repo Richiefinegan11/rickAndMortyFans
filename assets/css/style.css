@@ -26,12 +26,30 @@ body {
   height: 50vh;
 }
 
+.landing p {
+  padding-top: 2em;
+  font-size: x-large;
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .landing {
+    margin-top: 12em;
+  }
+  .quiz-questions {
+    margin-top: 13rem;
+  }
+}
+
 .start-quiz-btn,
 .next-btn {
   background-color: #ffd300;
   color: black;
   font-size: larger;
   font-weight: 800;
+}
+
+.start-quiz-btn {
+  margin-bottom: 1em;
 }
 
 .start-quiz-btn:hover,
