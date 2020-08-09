@@ -23,7 +23,7 @@ body {
   color: #ffd300;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 5rem 2rem;
-  height: 45vh;
+  height: 50vh;
 }
 
 .landing p {
@@ -56,23 +56,29 @@ body {
 }
 
 @media only screen and (min-device-width: 450px) and (max-device-width: 600px) {
+  body {
+    height: 130vh;
+  }
   .quiz-questions {
-    padding-top: 5rem;
+    padding-top: 2rem;
   }
   #score-page {
     padding: 5rem 0rem;
   }
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 414px) {
-  .landing {
-    height: 100%;
+@media only screen and (min-device-width: 280px) and (max-device-width: 414px) {
+  body {
+    height: 110vh;
   }
   .opening {
     margin: 1rem 0rem;
   }
   .start-quiz-btn {
     margin: 1rem 1rem;
+  }
+  .quiz-questions {
+    padding-top: 3rem;
   }
 }
 
