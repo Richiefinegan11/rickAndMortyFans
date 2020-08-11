@@ -155,4 +155,14 @@ video {
   margin: 1rem 1rem;
 }
 
-div#map {min-height: 360px;}
+div#map {
+  min-height: 360px;
+  width: 36em;
+  margin-left: 3em;
+}
+
+.meet-ups{
+  color: #ffd300;
+  margin : 3em 0em 1em 8em;
+  
+}
