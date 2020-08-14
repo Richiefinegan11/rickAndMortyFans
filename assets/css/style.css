@@ -164,8 +164,6 @@ div#map {
   margin: 0 auto;
 }
 
-
-
 .join-button {
   background-color: #ffd300;
   color: #000;
@@ -174,5 +172,16 @@ div#map {
   width: 12rem;
   margin: 5px 5px;
 }
+.meet-ups {
+  color: #ffd300;
+}
 
 
+.send-email{
+  display: block;
+  margin-left: 22rem; 
+}
+
+.center-form {
+  width: 36rem;
+}
