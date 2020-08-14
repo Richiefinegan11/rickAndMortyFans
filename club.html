@@ -17,7 +17,16 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-  </head>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_xUKj5ur2ocF6xTuGsqhGm");
+            emailjs.send("gmail", "rickAndMortyFanClub", {
+                name: "Richard",
+                notes: "I want to join the Rick And Morty Fan Club"
+            })
+        })();
+    </script>
   <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -63,10 +72,25 @@
     </div>
     <!--/Map section-->
 
-    <!--Quiz Conatiner-->
+    <!-- Email -->
+    <section class="container-fluid">
+      <div class="row bg-color-contact">
+          <div>
+              <h3 class="contact-heading uppercase text-center">Want to Join the Club</h3>
+          </div>
+          <div class="center-form">
+              <form onsubmit="return sendMail(this);">
+                  <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                  <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                  <textarea rows="5" name="jointheclub" class="form-control" id="jointheclub" placeholder="Want to Join the Club?" required></textarea>
+                  <button type="submit" class="btn btn-secondary center-block">Join Now!</button>
+              </form>
+          </div>
+      </div>
+  </section>
+    <!--/Email-->
 
-    <!--/Quiz Conatiner-->
-    <!--<scri pt
+    <scri pt
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
@@ -80,7 +104,7 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
-    ></script>-->
+    ></script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script
       async
@@ -88,5 +112,6 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXu9mS7mvcKjqfpHu1Y8fgZf_32UQvzLM&callback=initMap"
     ></script>
     <script src="/assets/js/maps.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
   </body>
 </html>
