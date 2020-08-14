@@ -155,6 +155,8 @@ video {
   margin: 1rem 1rem;
 }
 
+/* Club */
+
 div#map {
   min-height: 360px;
   width: 36em;
@@ -166,3 +168,10 @@ div#map {
   margin : 3em 0em 1em 8em;
   
 }
+
+.map-section {
+  margin-left: 35rem;
+  padding: 1rem 5rem;
+}
+
+
