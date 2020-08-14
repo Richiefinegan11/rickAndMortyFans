@@ -160,28 +160,11 @@ video {
 div#map {
   min-height: 360px;
   width: 36em;
-  margin-left: 3em;
+  display: block;
+  margin: 0 auto;
 }
 
-.meet-ups{
-  color: #ffd300;
-  margin : 3em 0em 1em 8em;
-  
-}
 
-.map-section  {
-  margin-left: 32rem;
-  padding: 0rem 5rem;
-}
-
-.sendEmail {
-  margin-left: 51rem;
-  padding: 1rem 5rem 3rem 0rem;
-}
-
-.sendEmail h3 {
-  color: #ffd300;
-}
 
 .join-button {
   background-color: #ffd300;
