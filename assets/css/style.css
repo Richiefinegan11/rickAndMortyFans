@@ -169,9 +169,27 @@ div#map {
   
 }
 
-.map-section {
-  margin-left: 35rem;
-  padding: 1rem 5rem;
+.map-section  {
+  margin-left: 32rem;
+  padding: 0rem 5rem;
+}
+
+.sendEmail {
+  margin-left: 51rem;
+  padding: 1rem 5rem 3rem 0rem;
+}
+
+.sendEmail h3 {
+  color: #ffd300;
+}
+
+.join-button {
+  background-color: #ffd300;
+  color: #000;
+  font-size: large;
+  font-weight: 600;
+  width: 12rem;
+  margin: 5px 5px;
 }
 
 
