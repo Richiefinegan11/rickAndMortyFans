@@ -38,11 +38,11 @@ body {
 }
 
 .quiz-questions {
-  padding-top: 15rem;
+  padding: 6rem 0 15rem 0;
 }
 
 #score-page {
-  padding-top: 15rem;
+  padding: 6rem 0 15rem 0;
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -176,12 +176,14 @@ div#map {
   color: #ffd300;
 }
 
-
-.send-email{
+.send-email {
   display: block;
-  margin-left: 22rem; 
+  margin-left: 22rem;
 }
-
 .center-form {
   width: 36rem;
+}
+
+.club-heading {
+  color: #ffd300;
 }
