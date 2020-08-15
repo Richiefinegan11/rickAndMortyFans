@@ -157,7 +157,7 @@ video {
 
 /* Club */
 
-div#map {
+div#map, .join-form {
   min-height: 360px;
   width: 36em;
   display: block;
@@ -174,14 +174,6 @@ div#map {
 }
 .meet-ups {
   color: #ffd300;
-}
-
-.send-email {
-  display: block;
-  margin-left: 22rem;
-}
-.center-form {
-  width: 36rem;
 }
 
 .club-heading {
