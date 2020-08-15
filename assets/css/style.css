@@ -134,7 +134,7 @@ video {
   font-size: large;
   font-weight: 600;
   width: 12rem;
-  margin: 2rem 12rem;
+  margin: 20px 200px;
 }
 
 .meet-ups {
@@ -143,6 +143,7 @@ video {
 
 .club-heading {
   color: #ffd300;
+  padding: 1rem 1rem;
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -183,5 +184,8 @@ video {
   div#map,
   .join-form {
     width: 20em;
+  }
+  .join-button {
+    margin-left: 55px;
   }
 }
