@@ -38,7 +38,7 @@ body {
 }
 
 .quiz-questions {
-  padding: 6rem 0 15rem 0;
+  padding: 13rem 0 15rem 0;
 }
 
 #score-page {
@@ -154,6 +154,9 @@ video {
   .quiz-questions {
     margin-top: 13rem;
   }
+  .map-section {
+    margin-top: 8em;
+  }
 }
 
 @media only screen and (min-device-width: 450px) and (max-device-width: 600px) {
@@ -187,5 +190,8 @@ video {
   }
   .join-button {
     margin-left: 55px;
+  }
+  .map-section {
+    margin: 3em 0;
   }
 }
