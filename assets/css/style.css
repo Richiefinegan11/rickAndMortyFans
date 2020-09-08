@@ -138,7 +138,7 @@ video {
   font-size: large;
   font-weight: 600;
   width: 12rem;
-  margin: 20px 20px;
+  margin: 2em 0;
 }
 
 .meet-ups {
@@ -154,7 +154,7 @@ video {
   margin: 2rem 0;
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
   .landing,
   #score-page {
     margin-top: 8em;
@@ -167,7 +167,7 @@ video {
   }
 }
 
-@media only screen and (min-device-width: 450px) and (max-device-width: 600px) {
+@media only screen and (min-device-width: 450px) and (max-device-width: 720px) {
   body {
     height: 130vh;
   }
@@ -177,9 +177,13 @@ video {
   #score-page {
     padding: 5rem 0rem;
   }
+  div#map,
+  .join-form {
+    width: 30em;
+  }
 }
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 414px) {
+@media only screen and (min-device-width: 290px) and (max-device-width: 414px) {
   body {
     height: 110vh;
   }
@@ -194,9 +198,26 @@ video {
   }
   div#map,
   .join-form {
-    width: 20em;
-  }
-  .join-button {
-    margin-left: 55px;
+    width: 18em;
   }
 }
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 280px) {
+  body {
+    height: 110vh;
+  }
+  .opening {
+    margin: 1rem 0rem;
+  }
+  .start-quiz-btn {
+    margin: 1rem 1rem;
+  }
+  .quiz-questions {
+    padding-top: 3rem;
+  }
+  div#map,
+  .join-form {
+    width: 15em;
+  }
+}
+
