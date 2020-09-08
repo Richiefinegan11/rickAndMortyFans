@@ -21,9 +21,9 @@
     <script type="text/javascript">
         (function(){
             emailjs.init("user_xUKj5ur2ocF6xTuGsqhGm");
-            emailjs.send("gmail", "rickAndMortyFanClub", {
-                name: "Richard",
-                notes: "I want to join the Rick And Morty Fan Club"
+            emailjs.send("gmail", "rickandmortyfanclub", {
+              name: "Richard",
+              notes: "I want to join the Rick And Morty Fan Club"
             })
         })();
     </script>
@@ -82,7 +82,7 @@
                 <form onsubmit="return sendMail(this);">
                   <input type="text" name="name" class="form-control text-center" id="fullname" placeholder="Name" required/>
                   <input type="text" name="emailaddress" class="form-control text-center" id="emailaddress" placeholder="Email" required/>
-                  <textarea rows="5" name="jointheclub" class="form-control text-center" id="jointheclub" placeholder="Tell us why you want to join?"></textarea>
+                  <textarea rows="5" name="jointheclub" class="form-control text-center" id="jointheclub" placeholder="Tell us why you want to join? or not..."></textarea>
                   <button type="submit" class="btn join-button text center-block">Join Now!</button>
                 </form>
             </div>

@@ -6,10 +6,10 @@
     })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
+            alert("SUCCESS! We will be in touch, if you are worthy :)", response);
         },
         function(error) {
-            console.log("FAILED", error);
+            alert("FAILED, please try again.", error);
         }
     );
     return false;  // To block from loading a new page
