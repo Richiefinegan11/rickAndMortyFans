@@ -128,13 +128,17 @@ video {
 
 /* Club */
 
+.club-page{
+  height: 105vh;
+}
+
 .join-button {
   background-color: #ffd300;
   color: #000;
   font-size: large;
   font-weight: 600;
   width: 12rem;
-  margin: 20px 200px;
+  margin: 20px 20px;
 }
 
 .meet-ups {
@@ -146,6 +150,10 @@ video {
   padding: 1rem 1rem;
 }
 
+.map-section {
+  margin: 2rem 0;
+}
+
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .landing,
   #score-page {
@@ -155,7 +163,7 @@ video {
     margin-top: 13rem;
   }
   .map-section {
-    margin-top: 8em;
+    margin-top: 5em 0;
   }
 }
 
@@ -190,8 +198,5 @@ video {
   }
   .join-button {
     margin-left: 55px;
-  }
-  .map-section {
-    margin: 3em;
   }
 }

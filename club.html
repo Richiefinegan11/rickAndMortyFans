@@ -60,34 +60,36 @@
     <!--/Navbar-->
 
     <!--Map section-->
-    <div class="container-fluid map-section">
-      <div class="row">
-        <div class="col-12">
-          <h3 class="meet-ups uppercase text-center">
-            Fan Club Meet-ups
-          </h3>
-        </div>
-      </div>
-      <div id="map"></div>
-    </div>
-    <!--/Map section-->
-
-    <!-- Email -->
-    <section class="container-fluid send-email">
-      <div class="bg-color-contact">
-          <div>
-            <h3 class="club-heading uppercase text-center">Want to Join the Club</h3>
-          <div class="join-form">
-              <form onsubmit="return sendMail(this);">
-                <input type="text" name="name" class="form-control text-center" id="fullname" placeholder="Name" required/>
-                <input type="text" name="emailaddress" class="form-control text-center" id="emailaddress" placeholder="Email" required/>
-                <textarea rows="5" name="jointheclub" class="form-control text-center" id="jointheclub" placeholder="Tell us why you want to join?"></textarea>
-                <button type="submit" class="btn join-button center-block">Join Now!</button>
-              </form>
+    <div class="club-page">
+      <div class="container-fluid map-section">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="meet-ups uppercase text-center">
+              Fan Club Meet-ups
+            </h3>
           </div>
         </div>
+        <div id="map"></div>
       </div>
-  </section>
+      <!--/Map section-->
+
+      <!-- Email -->
+      <section class="container-fluid send-email">
+        <div class="bg-color-contact">
+            <div>
+              <h3 class="club-heading uppercase text-center">Want to Join the Club</h3>
+            <div class="join-form">
+                <form onsubmit="return sendMail(this);">
+                  <input type="text" name="name" class="form-control text-center" id="fullname" placeholder="Name" required/>
+                  <input type="text" name="emailaddress" class="form-control text-center" id="emailaddress" placeholder="Email" required/>
+                  <textarea rows="5" name="jointheclub" class="form-control text-center" id="jointheclub" placeholder="Tell us why you want to join?"></textarea>
+                  <button type="submit" class="btn join-button center-block">Join Now!</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <!--/Email-->
 
     <script
