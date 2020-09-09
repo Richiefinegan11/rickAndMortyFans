@@ -2,15 +2,6 @@
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-}
-
-.navbar {
-  background-color: #fff;
-}
-
-/* Home page */
-
-body {
   background-image: url(../images/rickandmorty2.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -18,17 +9,22 @@ body {
   height: auto;
   background-attachment: fixed;
 }
+.navbar {
+  background-color: #fff;
+}
+
+/* Home page */
 
 .landing {
   color: #ffd300;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 5rem 2rem;
-  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 10rem 0 0 0;
 }
 
 .landing p {
   padding-top: 1em;
   font-size: x-large;
+  font-weight: 900;
 }
 
 .opening {
@@ -128,7 +124,7 @@ video {
 
 /* Club */
 
-.club-page{
+.club-page {
   height: 105vh;
 }
 
@@ -154,13 +150,15 @@ video {
   margin: 2rem 0;
 }
 
+/** Media queries **/
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
   .landing,
   #score-page {
     margin-top: 8em;
   }
   .quiz-questions {
-    margin-top: 13rem;
+    margin-top: 2rem;
   }
   .map-section {
     margin-top: 5em 0;
@@ -169,7 +167,7 @@ video {
 
 @media only screen and (min-device-width: 450px) and (max-device-width: 720px) {
   body {
-    height: 130vh;
+    height: 75vh;
   }
   .quiz-questions {
     padding-top: 2rem;
@@ -185,7 +183,7 @@ video {
 
 @media only screen and (min-device-width: 290px) and (max-device-width: 414px) {
   body {
-    height: 110vh;
+    height: 30vh;
   }
   .opening {
     margin: 1rem 0rem;
@@ -220,4 +218,3 @@ video {
     width: 15em;
   }
 }
-

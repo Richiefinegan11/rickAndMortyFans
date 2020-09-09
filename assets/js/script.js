@@ -172,15 +172,15 @@ function selectAnswer(e) {
 }
 
 function quizEndFeedback(){
-  if (score > 8) {
+  if (score > 7) {
     $("#feedback").html(`<div>
     <h4 class="feedback-b" >Well done!</h4>
     <video autoplay="autoplay" loop="loop" width="500" height="500" class="img-fluid mx-auto">
     <source src="assets/images/wellDone.mp4" type="video/mp4" />
     </video>`)
-  }else if (score > 5) {
+  }else if (score > 4) {
     $(`#feedback`).html(`<div>
-    <h4 class="feedback-b" >Not !</h4>
+    <h4 class="feedback-b" >Not Bad!</h4>
     <video autoplay="autoplay" loop="loop" width="500" height="500" class="img-fluid mx-auto">
     <source src="assets/images/notBad.mp4" type="video/mp4" />
     </video>`)
