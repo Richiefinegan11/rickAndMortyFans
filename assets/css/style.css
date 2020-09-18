@@ -166,9 +166,6 @@ video {
 }
 
 @media only screen and (min-device-width: 450px) and (max-device-width: 720px) {
-  body {
-    height: 75vh;
-  }
   .quiz-questions {
     padding-top: 2rem;
   }
@@ -182,9 +179,6 @@ video {
 }
 
 @media only screen and (min-device-width: 290px) and (max-device-width: 414px) {
-  body {
-    height: 30vh;
-  }
   .opening {
     margin: 1rem 0rem;
   }
@@ -201,9 +195,6 @@ video {
 }
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 280px) {
-  body {
-    height: 110vh;
-  }
   .opening {
     margin: 1rem 0rem;
   }
