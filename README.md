@@ -29,6 +29,20 @@ This website has the potential to reach a large market, both young and old Rick 
 * Social People
 
 ### User Stories
+* As a user who enjoys Rick and Morty, I want to test my knowledge at a Rick and Morty quiz, I can attempt the quiz on the main page
+* As a user who enjoys social meet-ups, I want to meet new people, I can find out where the fans meet up on the club page
+* As a user who loves Rick and Morty, I want to be part of a fan club, I can sign up to the fan club on the club page.
+* As the owner of the site, who also loves Rick and Morty, I can gain club members and eventually sell merchandise and organise events for the club
+
+## Wireframes 
+* Home
+  * [Desktop Landing Page](/assets/images/Rick%20&%20Morty%20Landing%20page.png)
+  * Tablet
+  * Mobile
+* Club Page
+  * Desktop
+  * Tablet
+  * Mobile
 
 
 
