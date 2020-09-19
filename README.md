@@ -37,12 +37,42 @@ This website has the potential to reach a large market, both young and old Rick 
 ## Wireframes 
 * Home
   * [Desktop Landing Page](/assets/images/Rick%20&%20Morty%20Landing%20page.png)
-  * Tablet
-  * Mobile
+  * [Tablet Landing Page](assets/images/Rick%20&%20Morty%20Landing%20page%20(tablet).png)
+  * [Mobile Landing Page](/assets/images/Rick%20&%20Morty%20Landing%20page%20(Mobile).png)
+  * [Desktop Quiz](/assets/images/Rick%20&%20Morty%20Quiz%20page.png)
+  * [Tablet Quiz](/assets/images/Rick%20&%20Morty%20Quiz%20(tablet)%20.png)
+  * [Mobile Quiz](/assets/images/Rick%20&%20Morty%20Quiz%20(mobile).png)
 * Club Page
-  * Desktop
-  * Tablet
-  * Mobile
+  * [Desktop](assets/images/Join%20Now.png)
+  * [Tablet](assets/images/Join%20Now%20(Tablet).png)
+  * [Mobile](assets/images/Join%20Now%20(mobile).png)
 
+## Features
+### Existing Features
+Each page has a responsive navigation bar with the name of the site (top left) as a clickable home button. When viewed on a mobile site the navbar presents a clickable burger icon which drops down the list of pages, which can then be clicked for simple navigation. Each page also has a colorful background with nice contrasting fonts that is continous across the two pages. The purpose of the background image is to not only add humor but to show the characters looking confused when the quiz questions appear.
+
+### Home    
+Under the navbar the heading appears in the form of a welcoming message to the user. Under the heading, the introduction begins and is designed to resemble the Star Wars opening crawl, with an attempt at humor. The introduction is short and sweet, it lets the user know there is a quiz available on the page and also has a clickable prompt to let the user know about the club page. 
+
+At the bottom of the introduction, there is a button labelled 'Start Quiz', when clicked, the introduction disappears and the quiz questions appear one by one with four clickable multiple choice options with a yellow background. Once an option is picked, the 3 incorrect options turn red and the correct option turns green, then a clickable next button appears for the user to go to the next question. This repeats through 10 questions and then the quiz is complete. At the end of the quiz, the user will receive a score accompanied by a GIF reaction to the score. Under this, there is an option to re-attempt the quiz or to quit back to the main page using buttons and hyperlinks.
+
+### Club Page
+Under the navbar on the club page there is a map showing the locations, where the fan club meets all over the country. Directly under this, there is a form for the user to fill out if they are interested in joining the club. Once filled out correctly, the user will then recieve an email to the address they have given, indicating if they have been accepted or not.
+
+## Features left to implement
+* Store - Once there is a sufficient amount of fans, I will then implement a merchandise page. The fans can then purchase merchandise from the show upon visiting the website.
+* Blog - Once the site gets some more interest and traffic, I will add a blog page to the site so fans can then interact with each other online too.
+
+## Technologies Used
+* Visual Studio Code
+   * The developer used visual studio code as their IDE while building the website
+* BootstrapCDN
+  * The project used Bootstrap4 to simplify the layout of the website and make it easily responsive
+* Google Fonts
+  * This project used google fonts to style the website fonts
+* Popper.js
+  * This project used Popper.js reference Javascript needed for the responsive navbar
+* jQuery
+  * The project uses jQuery to reference Javascript needed for the responsive navbar and modal for the store page cards
 
 

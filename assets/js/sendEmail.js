@@ -13,4 +13,4 @@
         }
     );
     return false;  // To block from loading a new page
-}
+}   
