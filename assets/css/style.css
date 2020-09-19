@@ -152,7 +152,7 @@ video {
 
 /** Media queries **/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
   .landing,
   #score-page {
     margin-top: 8em;
@@ -161,11 +161,11 @@ video {
     margin-top: 2rem;
   }
   .map-section {
-    margin-top: 5em 0;
+    margin-top: 5em;
   }
 }
 
-@media only screen and (min-device-width: 450px) and (max-device-width: 720px) {
+@media only screen and (min-width: 450px) and (max-width: 720px) {
   .quiz-questions {
     padding-top: 2rem;
   }
@@ -178,7 +178,7 @@ video {
   }
 }
 
-@media only screen and (min-device-width: 290px) and (max-device-width: 414px) {
+@media only screen and (min-width: 290px) and (max-width: 414px) {
   .opening {
     margin: 1rem 0rem;
   }
@@ -194,7 +194,7 @@ video {
   }
 }
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 280px) {
+@media only screen and (min-width: 280px) and (max-width: 280px) {
   .opening {
     margin: 1rem 0rem;
   }
