@@ -64,15 +64,21 @@ Under the navbar on the club page there is a map showing the locations, where th
 * Blog - Once the site gets some more interest and traffic, I will add a blog page to the site so fans can then interact with each other online too.
 
 ## Technologies Used
-* Visual Studio Code
+* [Visual Studio Code](https://code.visualstudio.com/)
    * The developer used visual studio code as their IDE while building the website
-* BootstrapCDN
+* [BootstrapCDN](https://getbootstrap.com/)
   * The project used Bootstrap4 to simplify the layout of the website and make it easily responsive
-* Google Fonts
+* [Google Fonts](https://fonts.google.com/)
   * This project used google fonts to style the website fonts
-* Popper.js
+* [Popper.js](https://popper.js.org/)
   * This project used Popper.js reference Javascript needed for the responsive navbar
-* jQuery
-  * The project uses jQuery to reference Javascript needed for the responsive navbar and modal for the store page cards
+* [jQuery](https://jquery.com/)
+  * The project uses jQuery to reference Javascript needed for the responsive navbar
+* [EmailJS](https://www.emailjs.com/)
+  * The project uses emailJS in order for the user to join the club and the owner to recieve the email
+* [Google Maps API](https://developers.google.com/maps/documentation)
+  * The project uses the google maps API to show where the meet-up spots are
+
+## Testing
 
 
