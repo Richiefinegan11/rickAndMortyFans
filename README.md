@@ -2,6 +2,13 @@
 ## Welcome to the fan page, I hope you enjoy your time here.
 [![Rick & Morty Image](/assets/images/rickmorty.jpg)](https://richiefinegan11.github.io/rickAndMortyFans/)
 
+## Table of content
+* [Overview](##Overview)
+* [UX](##UX)
+* [Wireframes](##Wireframes)
+* [Features](##Features)
+* [Technologies Used](##Technologies-Used)
+* [Testing](##Testing)
 ## Overview
 
 This is a mobile-first site that is designed for Rick and Morty fans to enjoy! Rick and Morty has gained alot of die hard fans in the last few years and this website will be a treat for any one of those fans.
@@ -59,7 +66,7 @@ At the bottom of the introduction, there is a button labelled 'Start Quiz', when
 ### Club Page
 Under the navbar on the club page there is a map showing the locations, where the fan club meets all over the country. Directly under this, there is a form for the user to fill out if they are interested in joining the club. Once filled out correctly, the user will then recieve an email to the address they have given, indicating if they have been accepted or not.
 
-## Features left to implement
+### Features left to implement
 * Store - Once there is a sufficient amount of fans, I will then implement a merchandise page. The fans can then purchase merchandise from the show upon visiting the website.
 * Blog - Once the site gets some more interest and traffic, I will add a blog page to the site so fans can then interact with each other online too.
 
@@ -80,5 +87,4 @@ Under the navbar on the club page there is a map showing the locations, where th
   * The project uses the google maps API to show where the meet-up spots are
 
 ## Testing
-
-
+Testing can be accessed [here](TESTING.md)

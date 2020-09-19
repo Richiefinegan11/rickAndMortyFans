@@ -25,7 +25,7 @@ let questions = [
     },
   
     {
-        question: "What is Rick's favourit method of transportation?",
+        question: "What is Rick's favourite method of transportation?",
         answers: [
             { text: "Bus", correct: false},
             { text: "Hover-Craft", correct: false},
