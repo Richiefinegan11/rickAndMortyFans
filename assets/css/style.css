@@ -15,6 +15,8 @@ body {
 
 /* Home page */
 
+/* Landing */
+
 .landing {
   color: #ffd300;
   background-color: rgba(0, 0, 0, 0.75);
@@ -33,21 +35,27 @@ body {
   margin: 3rem 0rem;
 }
 
+.card {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card h2 {
+  color: #ffd300;
+}
+
+/* Quiz Section */
+
 .quiz-questions {
   padding: 13rem 0 5rem 0;
 }
+
+/* Score Section */
 
 #score-page {
   padding: 6rem 0 15rem 0;
 }
 
-div#map,
-.join-form {
-  min-height: 360px;
-  width: 36em;
-  display: block;
-  margin: 0 auto;
-}
+/* Homepage buttons */
 
 .start-quiz-btn,
 .next-btn {
@@ -79,20 +87,6 @@ div#map,
   color: #000000;
 }
 
-.quit {
-  color: #fff;
-  font-size: x-large;
-  padding: 5px 10px;
-}
-
-.card {
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.card h2 {
-  color: #ffd300;
-}
-
 .answer-btn {
   background-color: #ffd300;
   color: #000;
@@ -100,6 +94,12 @@ div#map,
   font-weight: 600;
   width: 12rem;
   margin: 5px 5px;
+}
+
+.quit {
+  color: #fff;
+  font-size: x-large;
+  padding: 5px 10px;
 }
 
 .green {
@@ -122,10 +122,18 @@ video {
   margin: 1rem 1rem;
 }
 
-/* Club */
+/* Club Page */
 
 .club-page {
   height: 105vh;
+}
+
+div#map,
+.join-form {
+  min-height: 360px;
+  width: 36em;
+  display: block;
+  margin: 0 auto;
 }
 
 .join-button {
