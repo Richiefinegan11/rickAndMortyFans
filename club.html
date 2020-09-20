@@ -19,13 +19,9 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
     <script>
-        (function(){
-            emailjs.init("user_xUKj5ur2ocF6xTuGsqhGm");
-            emailjs.send("gmail", "rickandmortyfanclub", {
-              name: "Richard",
-              notes: "I want to join the Rick And Morty Fan Club"
-            })
-        })();
+      (function () {
+        emailjs.init("user_xUKj5ur2ocF6xTuGsqhGm");
+      })();
     </script>
   </head>
   <body>
@@ -65,9 +61,7 @@
       <div class="container-fluid map-section">
         <div class="row">
           <div class="col-12">
-            <h3 class="meet-ups uppercase text-center">
-              Fan Club Meet-ups
-            </h3>
+            <h3 class="meet-ups uppercase text-center">Fan Club Meet-ups</h3>
           </div>
         </div>
         <div id="map"></div>
@@ -77,15 +71,39 @@
       <!-- Email -->
       <section class="container-fluid send-email">
         <div class="bg-color-contact">
-            <div>
-              <h3 class="club-heading uppercase text-center">Want to Join the Club</h3>
+          <div>
+            <h3 class="club-heading uppercase text-center">
+              Want to Join the Club
+            </h3>
             <div class="join-form text-center">
-                <form onsubmit="return sendMail(this);">
-                  <input type="text" name="name" class="form-control text-center" id="fullname" placeholder="Name" required/>
-                  <input type="text" name="emailaddress" class="form-control text-center" id="emailaddress" placeholder="Email" required/>
-                  <textarea rows="5" name="jointheclub" class="form-control text-center" id="jointheclub" placeholder="Tell us why you want to join? or not..."></textarea>
-                  <button type="submit" class="btn join-button text center-block">Join Now!</button>
-                </form>
+              <form onsubmit="return sendMail(this);">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control text-center"
+                  id="fullname"
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  type="text"
+                  name="emailaddress"
+                  class="form-control text-center"
+                  id="emailaddress"
+                  placeholder="Email"
+                  required
+                />
+                <textarea
+                  rows="5"
+                  name="jointheclub"
+                  class="form-control text-center"
+                  id="jointheclub"
+                  placeholder="Tell us why you want to join? or not..."
+                ></textarea>
+                <button type="submit" class="btn join-button text center-block">
+                  Join Now!
+                </button>
+              </form>
             </div>
           </div>
         </div>

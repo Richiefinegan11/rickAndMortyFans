@@ -11,6 +11,7 @@
         function(error) {
             alert("FAILED, please try again.", error);
         }
+        
     );
     return false;  // To block from loading a new page
 }   

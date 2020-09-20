@@ -23,7 +23,7 @@ let questions = [
             { text: "Sarah", correct: false},
         ],
     },
-  
+ /* 
     {
         question: "What is Rick's favourite method of transportation?",
         answers: [
@@ -95,8 +95,8 @@ let questions = [
           { text: "Gary", correct: false},
           { text: "Barry", correct: false},
      ]
-    },
-];
+    },*/
+]; 
 
 let questionContainer = document.getElementById("quiz-questions");
 let questionElement = document.getElementById("question-info");
