@@ -88,3 +88,57 @@ Under the navbar on the club page there is a map showing the locations, where th
 
 ## Testing
 Testing can be accessed [here](TESTING.md)
+
+## Deployment
+This project was developed using Visual Studio Code, commited to git and pushed to Github.
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into GitHub.
+From the list of repositories on the left hand side of the screen, select [Richiefinegan11/stoic_in_action](https://github.com/Richiefinegan11/rickAndMortyFans).
+2. From the menu items near the top of the page, select Settings.
+3. Scroll down the page to the GitHub Pages section.
+4. Under Source, in the Github Pages section, click the drop-down menu labelled None and select Master Branch.
+5. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+6. Scroll back down to the GitHub Pages section where the link to the deployed website will be, at the top of the section.
+
+### How run the code locally
+
+To clone this project from GitHub:
+
+1. Click on the repository [Richiefinegan11/stoic_in_action](https://github.com/Richiefinegan11/rickAndMortyFans).
+2. To the right of the page, click the "Clone or download button.
+3. When the Clone with HTTPs section shows, copy the URL of the repository.
+4. In your local IDE open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone - then paste the URL copied for as advised in step 3.
+
+## Credits 
+
+### Code 
+
+* CSS
+  * Stack Overflow was very helpful in assisting me with questions I needed answered to create the style sheet.
+
+* Mainpage HTML -
+  * Some of the HTML5 was copied from BootstrapCDN and modified for layout and responsiveness.
+
+* Mainpage JS -
+  * The javascript used for the quiz was influenced by:
+    * [Sitepoint](https://www.sitepoint.com/simple-javascript-quiz/)
+    * [VerkkoNet](https://www.youtube.com/channel/UCErON4Z0YyiVHKNtx4BvLfg)
+    * [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
+* Club Page JS -
+  * The Google maps was achieved by using [Google Maps API](https://developers.google.com/maps/documentation)
+  * The form on this page was achieved by using [EmailJS](https://www.emailjs.com/)
+  
+
+### Content 
+  * The content for this site was influenced by the TV show "Rick and Morty"
+  * Some Questions for the quiz were obtained from [thequiz.com](https://www.thequiz.com/can-you-pass-the-hardest-rick-and-morty-quiz-on-the-internet/)
+
+### Media 
+  * The main image used in the background was taken from [HD Wallpaper](https://www.hdwallpaper.nu/rick-and-morty-wallpapers/)
+
+### Acknowledgements
+
