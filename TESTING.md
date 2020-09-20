@@ -59,5 +59,6 @@ Join the club Page
 
 ## Further Testing
 
-* I asked my friends and family for feedback on there devices
-* 
+* I asked my friends and family for feedback on there devices. *Color changed on the main page due to better visibility*
+* I asked for feedback in the peer-code-review channel in slack.
+* I ran my text through Google Docs to spell check and used the "Grammarly feature" to check the grammar. There was quite a few typos which were corrected
