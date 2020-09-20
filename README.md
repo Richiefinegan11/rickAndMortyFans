@@ -3,14 +3,14 @@
 [![Rick & Morty Image](/assets/images/rickmorty.jpg)](https://richiefinegan11.github.io/rickAndMortyFans/)
 
 ## Table of content
-* [Overview](##Overview)
-* [UX](##UX)
-* [Wireframes](##Wireframes)
-* [Features](##Features)
-* [Technologies Used](##Technologies-Used)
-* [Testing](##Testing)
-* [Deployment](##Deployment)
-* [Credits](##Credits)
+* [Overview](#Overview)
+* [UX](#UX)
+* [Wireframes](#Wireframes)
+* [Features](#Features)
+* [Technologies Used](#Technologies-Used)
+* [Testing](#Testing)
+* [Deployment](#Deployment)
+* [Credits](#Credits)
 ## Overview
 
 This is a mobile-first site that is designed for Rick and Morty fans to enjoy! Rick and Morty has gained alot of die hard fans in the last few years and this website will be a treat for any one of those fans.
