@@ -9,6 +9,8 @@
 * [Features](##Features)
 * [Technologies Used](##Technologies-Used)
 * [Testing](##Testing)
+* [Deployment](##Deployment)
+* [Credits](##Credits)
 ## Overview
 
 This is a mobile-first site that is designed for Rick and Morty fans to enjoy! Rick and Morty has gained alot of die hard fans in the last few years and this website will be a treat for any one of those fans.
@@ -141,4 +143,7 @@ To clone this project from GitHub:
   * The main image used in the background was taken from [HD Wallpaper](https://www.hdwallpaper.nu/rick-and-morty-wallpapers/)
 
 ### Acknowledgements
+
+### Disclaimer
+The content of this Website is for educational purposes only
 
