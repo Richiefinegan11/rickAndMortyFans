@@ -145,6 +145,15 @@ div#map,
   margin: 2em 0;
 }
 
+.map-button {
+  background-color: #ffd300;
+  color: #000;
+  font-size: large;
+  font-weight: 600;
+  width: 8rem;
+  margin: 3px;
+}
+
 .meet-ups {
   color: #ffd300;
 }

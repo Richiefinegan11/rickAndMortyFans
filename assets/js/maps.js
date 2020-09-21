@@ -9,21 +9,32 @@ function initMap() {
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    var locations = [
-        {lat: 53.279995244347994, lng: -6.363830566406251 },
-        {lat: 53.27342595846812, lng: -9.047412872314455 },
-        {lat: 51.887511191058756, lng: -8.46676826477051 },
-        {lat: 54.58434909323848, lng: -5.931200981140137 },
+    let bikeLayer = new google.maps.BicyclingLayer();
+    bikeLayer.setMap(map);
+
+    $(".towns").click(function () {
+        
+        map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
+        map.setZoom(14);
+    });
+    const towns = [
+        ["Dublin", 53.286572, -6.370580],
+        ["Galway", 53.273800, -9.051780 ],
+        ["Cork", 51.885509, -8.405220 ],
+        ["Belfast", 54.597286, -5.930120 ],
     ];
 
-    var markers = locations.map(function(location, i){
-        return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]            
+    let bounds = new google.maps.LatLngBounds();
+    for (i = 0; i < towns.length; i++) {
+        var marker = new google.maps.Marker({
+            position: {
+                lat: towns[i][1],
+                lng: towns[i][2],
+            },
+            title: towns[i][0],
+            map: map,
         });
-    });
-
-    var markerCluster = new MarkerClusterer(map, markers, {
-        imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-    });
+        bounds.extend(marker.getPosition());
+    }
+    map.fitBounds(bounds);
 }
