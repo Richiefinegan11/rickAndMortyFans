@@ -202,6 +202,7 @@ function setStatusClass(element, correct) {
       element.classList.add("red");
     }
   }
+  
   /* CLEARING CLASSES OF BUTTONS CLICKED */
   function clearStatusClass(element) {
     element.classList.remove("green");
@@ -225,9 +226,8 @@ function setStatusClass(element, correct) {
     showQuestion(shuffledQuestions[currentQuestion]);
      $(".answer-btn").prop("disabled", false);
   }
-  restartGame.addEventListener ("click", ()=>{
+  restartGame.addEventListener ("click", () => {
       score = 0;
       startGame();
       resetButtonState();
-  });
-  
+  });  
