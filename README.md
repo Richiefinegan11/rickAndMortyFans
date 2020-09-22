@@ -1,5 +1,5 @@
 # The Rick & Morty Fan Club
-## Welcome to the fan page, I hope you enjoy your time here.
+## Welcome! Please click the below image, I hope you enjoy it.
 [![Rick & Morty Image](/assets/images/rickmorty.jpg)](https://richiefinegan11.github.io/rickAndMortyFans/)
 
 ## Table of content
