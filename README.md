@@ -66,7 +66,7 @@ Under the navbar the heading appears in the form of a welcoming message to the u
 At the bottom of the introduction, there is a button labelled 'Start Quiz', when clicked, the introduction disappears and the quiz questions appear one by one with four clickable multiple choice options with a yellow background. Once an option is picked, the 3 incorrect options turn red and the correct option turns green, then a clickable next button appears for the user to go to the next question. This repeats through 10 questions and then the quiz is complete. At the end of the quiz, the user will receive a score accompanied by a GIF reaction to the score. Under this, there is an option to re-attempt the quiz or to quit back to the main page using buttons and hyperlinks.
 
 ### Club Page
-Under the navbar on the club page there is a map showing the locations, where the fan club meets all over the country. Directly under this, there is a form for the user to fill out if they are interested in joining the club. Once filled out correctly, the user will then recieve an email to the address they have given, indicating if they have been accepted or not.
+Under the navbar on the club page there is a map showing the locations, where the fan club meets all over the country. Under the map, there is button with the name of each city where the meet-ups take place. When clicked, these buttons will zoom in on the city and show cycling routes all aroung that city. Directly under this, there is a form for the user to fill out if they are interested in joining the club. Once filled out correctly, the user will then recieve an email to the address they have given, indicating if they have been accepted or not.
 
 ### Features left to implement
 * Store - Once there is a sufficient amount of fans, I will then implement a merchandise page. The fans can then purchase merchandise from the show upon visiting the website.
@@ -132,7 +132,7 @@ To clone this project from GitHub:
     * [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
 * Club Page JS -
   * The Google maps was achieved by using [Google Maps API](https://developers.google.com/maps/documentation)
-  * The form on this page was achieved by using [EmailJS](https://www.emailjs.com/)
+  * The form on this page was achieved by using [EmailJS](https://www.emailjs.com/) and implemented with the help of the Code Institue course
   
 
 ### Content 
@@ -143,6 +143,12 @@ To clone this project from GitHub:
   * The main image used in the background was taken from [HD Wallpaper](https://www.hdwallpaper.nu/rick-and-morty-wallpapers/)
 
 ### Acknowledgements
+
+Jonathan Munz (Code Institute Mentor) - For his advice, helpful feedback and reassurance towards the end of this project, as always.
+
+The Code Institute Slack Community - which was so helpful, especially for this project. Viewing other students projects helped me alot with my own.
+
+My friends and family, especially Aaron Mcdonnell & Ian P Brady for their very helpful feedback for this site.
 
 ### Disclaimer
 The content of this Website is for educational purposes only

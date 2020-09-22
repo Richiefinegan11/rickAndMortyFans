@@ -46,7 +46,7 @@ body {
 /* Quiz Section */
 
 .quiz-questions {
-  padding: 13rem 0 5rem 0;
+  padding: 9rem 0;
 }
 
 /* Score Section */
@@ -175,7 +175,7 @@ div#map,
     margin-top: 8em;
   }
   .quiz-questions {
-    margin-top: 0rem;
+    margin-top: 10rem;
   }
   .map-section {
     margin-top: 5em;

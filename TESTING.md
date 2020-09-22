@@ -10,6 +10,7 @@
 
 [JSHint](https://jshint.com/)
 * The developer used JSHint for testing the Javascript code
+  * Some warnings showed, but this was due to the use of new JS
   
 
 ### Testing UX Stories
@@ -54,11 +55,12 @@ Home Page
 
 Join the club Page
 1.  Check that Map appears with markers on the club page to show the various locations
-2.  Check that join the club form works correctly and the alert appears to let the user know if it has worked or not
-3.  Change the size of the page to make sure the club page is responsive
+2.  Check the buttons under the map are functioning correctly and zoom in on the named location, showing the cycing tracks
+3.  Check that join the club form works correctly and the alert appears to let the user know if it has worked or not
+4.  Change the size of the page to make sure the club page is responsive
 
 ## Further Testing
 
 * I asked my friends and family for feedback on there devices. *Color changed on the main page due to better visibility*
-* I asked for feedback in the peer-code-review channel in slack.
-* I ran my text through Google Docs to spell check and used the "Grammarly feature" to check the grammar. There was quite a few typos which were corrected
+* I asked for feedback in the peer-code-review channel in slack. *Did not get a response, so I hope no news, is good news*
+* I ran my text through Google Docs to spell check and used the "Grammarly feature" to check the grammar. *There was quite a few typos which were corrected*

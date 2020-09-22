@@ -1,10 +1,9 @@
 function initMap() {
+    var ireland = {lat: 53.27835301753182,
+        lng: -7.712402343750001}
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 6,
-        center: {
-            lat: 53.27835301753182,
-            lng: -7.712402343750001
-        }
+        center: ireland
     });
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
