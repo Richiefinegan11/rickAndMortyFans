@@ -29,7 +29,7 @@ The user's goals are:
 * Signing up to the fan club
 
 ## UX
-This website has the potential to reach a large market, both young and old Rick & Morty fans. It's both simple and aesthetically pleasing, as well as easy to navigate around. The main page has a quiz which is very straight forward to use and indicates if they choose a correct or incorrect answer. They can also navigate to the club page where they can use a map provided by a Google API to show where the fans meet-up and also sign up for the fan club using a form and emailJS. Once the form is completed, the user will receive an alert to confirm whether the form has been filled incorrectly or not.
+This website has the potential to reach a large market, both young and old Rick & Morty fans. It's both simple and aesthetically pleasing, as well as easy to navigate around. The main page has a quiz which is very straight forward to use and indicates if they choose a correct or incorrect answer. They can also navigate to the club page where they can use a map provided by a Google API to show where the fans meet-up and also sign up for the fan club using a form and emailJS. Once the form is completed, the user will receive an alert to confirm whether the form has been filled out correctly or not.
 
 ### Ideal Users
 * English Speaking
